@@ -1,0 +1,221 @@
+body{
+  background-color: black;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    color: wheat;
+}
+
+.navList{
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+}
+
+.icons{
+          display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+}
+
+.main{
+  background-image: url(./images/coffe\ bean\ and\ coffe.jpg);
+  background-size: cover;
+   background-position: center;
+   height: 100vh;
+   padding-left: 100px;
+   padding-right: 100px ;
+
+}
+
+.hero{
+  width: 40%;
+}
+
+.hero p{
+  color: #ffffff;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.hero h1{
+  color: wheat;
+}
+
+button{
+  background-color: wheat;
+  border-radius: 10px;
+  padding: 10px;
+  color: #ffffff;
+  font-size: medium;
+}
+
+h1{
+  text-align: center;
+  color: wheat;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.about-content{
+  
+  display: flex;
+  padding-left: 50px;
+  padding-right: 50px; 
+}
+
+.about-content img{
+  width: 50%;
+}
+
+.about-content-content{
+  background-color: rgb(20, 18, 18);
+    line-height: 30px;
+   font-size: 20px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.about-content-content h2{
+  color: #ffffff;
+}
+.about-content-content p{
+ color: #ffffff;
+}
+
+.menu-cards img{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+   display: flex;
+}
+.card{
+ border: 1px solid wheat;
+background-color: black;
+ color: black;
+ width: 350px;
+ height: 300px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding-top: 50px;
+ margin: 10px;
+}
+
+.menu-cards-top{
+  display: flex;
+}
+
+.menu-cards-bottom{
+  display: flex;
+}
+
+.menu{
+   padding-left:150px ;
+   padding-right:60px ;
+   width: 1000px;
+}
+
+.card p{
+  color: aliceblue;
+}
+
+i{
+  color: wheat;
+}
+
+.card-product img{
+  width: 200px;
+  height: 300px;
+  margin-top: 20px;
+ margin-bottom: 30px;
+}
+
+.product-content{
+  display: flex;
+  gap: 20px;
+ justify-content: center;
+}
+.card-product{
+  border: 1px solid wheat ;
+  width: 300px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.costomers-review{
+  display: flex; 
+  gap: 20px;
+ justify-content: center;
+
+}
+
+.review-content{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid wheat;
+  padding-bottom: 20px;
+  
+}
+
+
+
+.review-content img{
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+.review-content p{
+  color: aliceblue;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contact{
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+
+.contact-us img{
+   width: 50%;
+   height: 300px;
+}
+.cot{
+  border: 1px solid rgb(116, 85, 29);
+  width: 50%;
+}
+
+.contact-us i{
+  color: white;
+}
+
+
+.contact-us{
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+
+h2{
+  text-align: center;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.inputBox input{
+ background-color: black;
+ border: none;
+}
+
+.inputBox{
+  display: flex;
+  border: 2px solid rgb(46, 45, 45);
+}
