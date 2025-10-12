@@ -217,4 +217,6 @@ h2{
 .inputBox{
   display: flex;
   border: 2px solid rgb(46, 45, 45);
+  height: 45px;
+  align-items: center;
 }
