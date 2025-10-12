@@ -222,4 +222,7 @@ h2{
   height: 45px;
   align-items: center;
   color: white;
+  gap: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
