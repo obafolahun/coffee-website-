@@ -1,5 +1,6 @@
 body{
   background-color: black;
+  color: white;
 }
 
 .navbar{
@@ -212,6 +213,7 @@ h2{
 .inputBox input{
  background-color: black;
  border: none;
+ color: white;
 }
 
 .inputBox{
@@ -219,4 +221,5 @@ h2{
   border: 2px solid rgb(46, 45, 45);
   height: 45px;
   align-items: center;
+  color: white;
 }
