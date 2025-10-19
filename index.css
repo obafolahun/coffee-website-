@@ -238,3 +238,13 @@ h2{
   width: 400px;
   height: 300px;
 }
+.blog-content{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.blog-CARD{
+   border: 1px solid wheat;
+   padding-right: 10px;
+   padding-left: 5px;
+}
